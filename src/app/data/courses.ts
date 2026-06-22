@@ -98,7 +98,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 48 },
     spotsAvailable: 12,
     instructor: instructors.maria,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 101',
   },
   {
@@ -127,7 +127,7 @@ export const courses: Course[] = [
     duration: { weeks: 6, totalHours: 60 },
     spotsAvailable: 10,
     instructor: instructors.maria,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 102',
   },
   {
@@ -156,7 +156,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 48 },
     spotsAvailable: 14,
     instructor: instructors.carlos,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 103',
   },
   {
@@ -200,7 +200,7 @@ export const courses: Course[] = [
     duration: { weeks: 5, totalHours: 40 },
     spotsAvailable: 10,
     instructor: instructors.ana,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula de Idiomas',
   },
   {
@@ -214,7 +214,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 32 },
     spotsAvailable: 16,
     instructor: instructors.laura,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 104',
   },
   {
@@ -243,7 +243,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 40 },
     spotsAvailable: 12,
     instructor: instructors.diana,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Laboratorio de Ciencias',
   },
   {
@@ -289,7 +289,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 64 },
     spotsAvailable: 10,
     instructor: instructors.maria,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 201',
   },
   {
@@ -318,7 +318,7 @@ export const courses: Course[] = [
     duration: { weeks: 8, totalHours: 24 },
     spotsAvailable: 8,
     instructor: instructors.maria,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 202',
   },
   {
@@ -332,7 +332,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 64 },
     spotsAvailable: 12,
     instructor: instructors.jorge,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Laboratorio de Física',
   },
   {
@@ -361,7 +361,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 64 },
     spotsAvailable: 12,
     instructor: instructors.jorge,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Laboratorio de Química',
   },
   {
@@ -405,7 +405,7 @@ export const courses: Course[] = [
     duration: { weeks: 6, totalHours: 12 },
     spotsAvailable: 8,
     instructor: instructors.diana,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 203',
   },
   {
@@ -449,7 +449,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 64 },
     spotsAvailable: 12,
     instructor: instructors.roberto,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula 204',
   },
   {
@@ -493,7 +493,7 @@ export const courses: Course[] = [
     duration: { weeks: 16, totalHours: 64 },
     spotsAvailable: 15,
     instructor: instructors.pedro,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Sala de Cómputo',
   },
   {
@@ -537,7 +537,7 @@ export const courses: Course[] = [
     duration: { weeks: 6, totalHours: 60 },
     spotsAvailable: 10,
     instructor: instructors.ana,
-    address: 'Calle Hidalgo 245, Colonia Centro, Tuxtla Gutiérrez, Chiapas',
+    address: 'Ignacio Zaragoza 55, José de la Palma, 56530 Ixtapaluca, Estado de México',
     classroom: 'Aula de Idiomas',
   },
 ];
