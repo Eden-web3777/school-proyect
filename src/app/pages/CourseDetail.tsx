@@ -226,8 +226,8 @@ export function CourseDetail() {
                     <div className="bg-blue-100 rounded-lg h-36 flex items-center justify-center border border-blue-200">
                       <div className="text-center text-blue-600">
                         <MapPin className="h-8 w-8 mx-auto mb-2 opacity-50" />
-                        <p className="text-xs">Calle Hidalgo 245, Col. Centro</p>
-                        <p className="text-xs">Tuxtla Gutiérrez, Chiapas</p>
+                        <p className="text-xs">Ignacio Zaragoza 55, José de la Palma</p>
+                        <p className="text-xs">Ixtapaluca, Estado de México</p>
                       </div>
                     </div>
                   </div>

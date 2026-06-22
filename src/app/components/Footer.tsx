@@ -14,7 +14,7 @@ export function Footer() {
               </div>
               <div>
                 <span className="text-base font-bold text-white block leading-none" style={{ fontFamily: 'var(--font-display)' }}>
-                  Academia Chiapas
+                  Instituto Tec. de Aprendizaje
                 </span>
                 <span className="text-[10px] text-primary-foreground/60 uppercase tracking-widest">
                   Asesorías Académicas
@@ -23,7 +23,7 @@ export function Footer() {
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Asesorías, regularizaciones y cursos de verano para nivel básico y medio superior.
-              Modalidad presencial y en línea en Tuxtla Gutiérrez, Chiapas.
+              Modalidad presencial y en línea en Ixtapaluca, Estado de México.
             </p>
             <div className="flex items-center gap-3 mt-4">
               <a href="#" aria-label="Facebook" className="flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
@@ -32,7 +32,7 @@ export function Footer() {
               <a href="#" aria-label="Instagram" className="flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
                 <Instagram className="h-4 w-4 text-white" />
               </a>
-              <a href="https://wa.me/529611234567" aria-label="WhatsApp" className="flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
+              <a href="https://wa.me/525579050723" aria-label="WhatsApp" className="flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
                 <MessageCircle className="h-4 w-4 text-white" />
               </a>
             </div>
@@ -108,27 +108,27 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 text-primary-foreground/60 mt-0.5 flex-shrink-0" />
-                <a href="tel:+529611234567" className="hover:text-white transition-colors">
-                  961 123 4567
+                <a href="tel:+525579050723" className="hover:text-white transition-colors">
+                  557 905 0723
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MessageCircle className="h-4 w-4 text-green-400 mt-0.5 flex-shrink-0" />
-                <a href="https://wa.me/529611234567" className="hover:text-white transition-colors">
-                  WhatsApp: 961 123 4567
+                <a href="https://wa.me/525579050723" className="hover:text-white transition-colors">
+                  WhatsApp: 557 905 0723
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 text-primary-foreground/60 mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@academiachiapas.mx" className="hover:text-white transition-colors">
-                  info@academiachiapas.mx
+                <a href="mailto:contacto@itad.edu.mx" className="hover:text-white transition-colors">
+                  contacto@itad.edu.mx
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-primary-foreground/60 mt-0.5 flex-shrink-0" />
                 <span>
-                  Calle Hidalgo 245, Col. Centro<br />
-                  Tuxtla Gutiérrez, Chiapas
+                  Ignacio Zaragoza 55, José de la Palma<br />
+                  Ixtapaluca, Estado de México
                 </span>
               </li>
             </ul>
@@ -141,7 +141,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/50">
-          <p>&copy; 2026 Academia Chiapas. Todos los derechos reservados.</p>
+          <p>&copy; 2026 Instituto Tecnológico de Aprendizaje. Todos los derechos reservados.</p>
           <p>
             Diseñado por{' '}
             <a href="/nosotros#desarrollador" className="text-primary-foreground/70 hover:text-white transition-colors">

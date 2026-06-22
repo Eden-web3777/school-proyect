@@ -74,7 +74,7 @@ export function About() {
               Nosotros
             </h1>
             <p className="text-white/70 max-w-2xl text-lg leading-relaxed">
-              Somos una academia de asesorías académicas con sede en Tuxtla Gutiérrez, Chiapas, comprometida con el éxito escolar de cada alumno.
+              Somos una academia de asesorías académicas con sede en Ixtapaluca, Estado de México, comprometida con el éxito escolar de cada alumno.
             </p>
           </motion.div>
         </div>
@@ -90,7 +90,7 @@ export function About() {
               </h2>
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  Academia Chiapas nació en 2018 a partir de la necesidad real de los alumnos de la región de contar con asesorías de calidad accesibles. Nuestro fundador, con más de 15 años de experiencia docente, identificó que muchos estudiantes tenían dificultades en materias clave no por falta de capacidad, sino por falta de acompañamiento personalizado.
+                  El Instituto Tecnológico de Aprendizaje y Desarrollo nació en 2018 a partir de la necesidad real de los alumnos de la región de contar con asesorías de calidad accesibles. Nuestro fundador, con más de 15 años de experiencia docente, identificó que muchos estudiantes tenían dificultades en materias clave no por falta de capacidad, sino por falta de acompañamiento personalizado.
                 </p>
                 <p>
                   Lo que comenzó como un pequeño grupo de tutorías en Matemáticas y Español, hoy se ha convertido en una academia completa que atiende más de 500 alumnos por ciclo escolar, con 8 docentes especializados y cobertura en modalidad presencial y en línea.
@@ -138,7 +138,7 @@ export function About() {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/80 leading-relaxed">
-                  Ser la academia de referencia en el sureste de México por la calidad de sus docentes, los resultados comprobables de sus alumnos y el uso de metodologías modernas de enseñanza.
+                  Ser la academia de referencia en el Estado de México por la calidad de sus docentes, los resultados comprobables de sus alumnos y el uso de metodologías modernas de enseñanza.
                 </p>
               </CardContent>
             </Card>
@@ -220,7 +220,7 @@ export function About() {
               Empresa desarrolladora
             </h2>
             <p className="text-muted-foreground">
-              El sitio web de Academia Chiapas fue diseñado y desarrollado por:
+              El sitio web de Instituto Tecnológico de Aprendizaje y Desarrollo fue diseñado y desarrollado por:
             </p>
           </div>
 
@@ -235,7 +235,7 @@ export function About() {
                     TechEdu Solutions
                   </h3>
                   <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
-                    Empresa especializada en desarrollo de plataformas educativas digitales para instituciones académicas del sureste de México. Creamos soluciones web modernas, accesibles y escalables para escuelas, academias y centros de enseñanza.
+                    Empresa especializada en desarrollo de plataformas educativas digitales para instituciones académicas del Estado de México. Creamos soluciones web modernas, accesibles y escalables para escuelas, academias y centros de enseñanza.
                   </p>
 
                   <div className="flex flex-wrap gap-2 mb-5 justify-center sm:justify-start">
