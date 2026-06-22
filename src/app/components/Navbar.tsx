@@ -69,13 +69,13 @@ export function Navbar() {
             {/* Desktop quick links */}
             <div className="hidden lg:flex items-center gap-1">
               <Link to="/cursos?type=regular" className="px-3 py-1.5 text-sm font-medium text-foreground/70 hover:text-primary hover:bg-secondary rounded-md transition-colors">
-                Cursos Regulares
+                
               </Link>
               <Link to="/cursos?type=verano" className="px-3 py-1.5 text-sm font-medium text-foreground/70 hover:text-primary hover:bg-secondary rounded-md transition-colors">
-                Verano
+                
               </Link>
               <Link to="/cursos?type=regularizacion" className="px-3 py-1.5 text-sm font-medium text-foreground/70 hover:text-primary hover:bg-secondary rounded-md transition-colors">
-                Regularizaciones
+                
               </Link>
               <Link to="/contacto" className="px-3 py-1.5 text-sm font-medium text-foreground/70 hover:text-primary hover:bg-secondary rounded-md transition-colors">
                 Contacto
