@@ -29,6 +29,7 @@ import {
   ChevronUp,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logo from '../../assets/logo_escuela_.jpeg';
 
 const typeColors: Record<CourseType, string> = {
   regular: 'bg-purple-100 text-purple-800',
@@ -280,7 +281,11 @@ export function Courses() {
           <div className="md:col-span-3">
             {filteredCourses.length === 0 ? (
               <Card className="p-12 text-center border">
-                <GraduationCap className="h-12 w-12 mx-auto text-muted-foreground/30 mb-4" />
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="h-5 w-5 object-contain"
+                />
                 <p className="text-muted-foreground text-lg mb-4">
                   No se encontraron cursos con los filtros seleccionados.
                 </p>
@@ -339,7 +344,11 @@ export function Courses() {
                             {course.schedule.days}, {course.schedule.startTime}–{course.schedule.endTime}
                           </div>
                           <div className="flex items-center gap-1.5">
-                            <GraduationCap className="h-3.5 w-3.5 flex-shrink-0" />
+                            <img
+                              src={logo}
+                              alt="Logo"
+                              className="h-5 w-5 object-contain"
+                            />
                             <span className="truncate">{course.instructor.name}</span>
                           </div>
                           <div className="flex items-center gap-1.5 mt-1">
