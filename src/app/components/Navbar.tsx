@@ -121,11 +121,11 @@ export function Navbar() {
             {/* Drawer panel */}
             <motion.aside
               key="drawer"
-              initial={{ x: '-100%' }}
+              initial={{ x: '100%' }}
               animate={{ x: 0 }}
-              exit={{ x: '-100%' }}
+              exit={{ x: '100%' }}
               transition={{ type: 'spring', stiffness: 380, damping: 40 }}
-              className="fixed left-0 top-0 bottom-0 z-50 w-72 bg-white shadow-2xl flex flex-col"
+              className="fixed right-0 top-0 bottom-0 z-50 w-72 bg-white shadow-2xl flex flex-col"
             >
               {/* Drawer header */}
               <div className="flex items-center justify-between p-4 border-b border-border">
