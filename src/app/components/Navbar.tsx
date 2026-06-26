@@ -17,6 +17,7 @@ import {
   Info,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logo from '../../assets/logo_escuela_.jpeg';
 
 interface NavItem {
   label: string;
@@ -54,7 +55,11 @@ export function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 flex-shrink-0" onClick={() => setOpen(false)}>
               <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-primary">
-                <GraduationCap className="h-5 w-5 text-white" />
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div className="hidden sm:block">
                 <span className="text-base font-bold text-primary leading-none block" style={{ fontFamily: 'var(--font-display)' }}>
@@ -131,7 +136,11 @@ export function Navbar() {
               <div className="flex items-center justify-between p-4 border-b border-border">
                 <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-2.5">
                   <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-primary">
-                    <GraduationCap className="h-5 w-5 text-white" />
+                    <img
+                      src={logo}
+                      alt="Logo"
+                      className="w-8 h-8 object-contain"
+                    />
                   </div>
                   <div>
                     <span className="text-sm font-bold text-primary leading-none block" style={{ fontFamily: 'var(--font-display)' }}>

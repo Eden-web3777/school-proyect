@@ -1,5 +1,6 @@
 import { GraduationCap, Mail, Phone, MapPin, MessageCircle, Facebook, Instagram } from 'lucide-react';
 import { Link } from 'react-router';
+import logo from '../../assets/logo_escuela_.jpeg';
 
 export function Footer() {
   return (
@@ -10,7 +11,11 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
               <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-white/20">
-                <GraduationCap className="h-5 w-5 text-white" />
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div>
                 <span className="text-base font-bold text-white block leading-none" style={{ fontFamily: 'var(--font-display)' }}>

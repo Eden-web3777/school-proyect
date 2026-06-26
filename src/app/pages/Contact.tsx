@@ -84,6 +84,15 @@ export function Contact() {
     return;
   }
 
+  // Limpiar formulario
+  setForm({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
+  });
+
   setSubmitted(true);
   };
 
@@ -196,7 +205,17 @@ export function Contact() {
                     <p className="text-muted-foreground">
                       Te contactaremos en breve al correo <strong>{form.email}</strong> o al número que proporcionaste.
                     </p>
-                    <Button className="mt-6" onClick={() => setSubmitted(false)}>
+                    <Button className="mt-6" onClick={() => {
+                      setForm({
+                        name: '',
+                        email: '',
+                        phone: '',
+                        subject: '',
+                        message: '',
+                      });
+
+                      setSubmitted(false);
+                      }}>
                       Enviar otro mensaje
                     </Button>
                   </motion.div>
